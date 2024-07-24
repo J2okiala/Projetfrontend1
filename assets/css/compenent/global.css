@@ -3,6 +3,7 @@
 :root {
   --texte-principal: #efefef;
   --texte-button: navy; 
+  --content-width: 2560px;
 
 }
 
@@ -67,6 +68,15 @@ ul {
 .m-1 {
     margin: 1rem 0;
 }
+
+.m-4 {
+  margin: 4rem 0;
+}
+
+.m-8 {
+  margin: 8rem 0;
+}
+
 
 .w-100 {
     width: 100%;
@@ -183,3 +193,4 @@ body {
   justify-content: center;
   align-items: center;
 }
+
