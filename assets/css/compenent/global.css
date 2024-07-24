@@ -28,9 +28,21 @@ ul {
 
 /* COMMON CLASSES */
 
+
+
+
 .flex {
     display: flex;
 }
+
+.block {
+  display: block;
+}
+
+.iblock {
+  display: inline-block;
+}
+
 .flex-column {
     flex-direction: column;
 }
@@ -44,7 +56,7 @@ ul {
 }
 
 .justify-center {
-    justify-content: center;
+   justify-content: center;   /* centré les élements */
 }
 
 .justify-end {
