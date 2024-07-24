@@ -3,7 +3,7 @@
 :root {
   --texte-principal: #efefef;
   --texte-button: navy; 
-  --content-width: 2560px;
+  --content-width: 1392px;
 
 }
 
@@ -35,6 +35,10 @@ ul {
     flex-direction: column;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .justify-between {
     justify-content: space-between;
 }
@@ -59,6 +63,11 @@ ul {
     flex-wrap: wrap;
 }
 
+.text-left {
+  text-align: left;
+  width: 100%;
+}
+
 /* PADDING */
 
 .p-1 {
@@ -75,6 +84,10 @@ ul {
 
 .m-8 {
   margin: 8rem 0;
+}
+
+.m-20 {
+  margin: 20rem 0;
 }
 
 

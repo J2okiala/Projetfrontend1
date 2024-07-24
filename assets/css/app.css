@@ -9,6 +9,14 @@ body, html {
     color: black;
 }
 
+/* color */
+.shadow-blue {
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 15px 5px #06439C; 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 15px 5px #06439C;
+}
+
+
+
 /* HEADER */
 header {
     position: relative;
@@ -154,18 +162,22 @@ h2 {
 /* FOOTER */
 
 footer {
-    padding: 300px;
+    padding: 150px;
     background-color: black;
     color: white;
     text-align: center;
 }
 
-/* color */
-.shadow-blue {
-    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 15px 5px #06439C; 
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 0px 0px 15px 5px #06439C;
+.plan {
+    margin-left: 100px;
+    font-size: 21px;
 }
 
+.logo-footer {
+    margin-left: 50px;
+    font-size: 30px;
+
+}
 
 
 
