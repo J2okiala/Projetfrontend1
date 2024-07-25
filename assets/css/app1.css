@@ -133,10 +133,10 @@ h1 {
     transform: translateX(-50%);
 }
 
-.Bckg-Carte img:nth-of-type(1) {
+/* .Bckg-Carte img:nth-of-type(1) {
     margin: 300px;
     transform: translateX(-50%);
-} 
+}  */
 
 .Bckg-button {
     font-size: 1.5rem;
