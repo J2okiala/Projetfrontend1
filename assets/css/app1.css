@@ -19,6 +19,10 @@ body, html {
     color: #06439C;
 }
 
+#p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 
 
 /* HEADER */
