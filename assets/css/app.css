@@ -60,6 +60,8 @@ header {
     display: flex;
     align-items: center;
     color: white;
+    font-size: xx-large;
+    padding: 1rem;
 }
 
 .navbar .scroll p {
@@ -116,8 +118,8 @@ h1 {
 }
 
 .Bckg-Carte {
-    background: white;
-    width: 500px;
+    background: white ;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -149,7 +151,7 @@ h2 {
   margin-bottom: 10px;
   margin-left: 5px;
   padding: 10px 30px 100px 10px;
-  FONT-SIZE: large;
+  FONT-SIZE: x-large;
 
 }
 
