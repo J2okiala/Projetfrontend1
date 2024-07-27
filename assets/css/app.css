@@ -135,6 +135,8 @@ h1 {
     font-size: 3rem;
 }
 
+
+
 .Bckg-Carte {
     background: white ;
     width: 400px;
@@ -142,24 +144,29 @@ h1 {
     border-radius: 8px;
     overflow: hidden;
     margin-right: 20px;
+    transition: background 5s;
     
 }
 
 .Bckg-Carte:hover {
+  background-color: #003165;
   border: 10px solid navy;
+
 }
 
 .Bckg-Carte img {
-    width: 200%;
-    height: 400px; 
-    display:block;
-    margin: 0 auto;
-    transform: translateX(-50%);
+  width: 200%;
+  height: 400px; 
+  display:block;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  transition: transform 3s, width 5s, height 5s;
 }
 
 .Bckg-Carte img:hover {
   width: 300%;
-  height: 550px;
+  height: 600px;
+  transform: rotate(50deg);
 }
 
 .Bckg-button {
@@ -167,9 +174,12 @@ h1 {
     color: navy;
     border: 4px solid navy;
     border-radius: 0.5rem ;
+    transition: background 2s, font-size 5s color 2s;
 }
 
 .Bckg-button:hover {
+  background: #003165;
+  color: white;
   font-size: 2rem;
   border: 8px solid navy;
 
@@ -300,39 +310,5 @@ footer {
   margin-top: 10px;
   color: #cccccc;
 }
-
-
-/* NOS SERVICE  */
-
-.img-NosService {
-
-  object-fit: cover;
-  height: 200%;
-  width: 200%; 
-  object-position: 243px 4px;
-
-}
-
-
-.service-carte {
-  z-index: 10;
-  width: 100%;
-  overflow: hidden;
-  padding: 32px;
-}
-
-h5, p {
-  font-size: x-large;
-}
-
-.Bckg-button2 {
-  font-size: 1.5rem;
-  color: white;
-  padding: 5px 20px 5px 20px;
-  border: 4px solid navy;
-  background-color: navy;
-  border-radius: 10px;
-}
-  
 
 
