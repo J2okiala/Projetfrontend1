@@ -117,10 +117,13 @@ main {
     border-radius: 8px;
     overflow: hidden;
     margin-right: 20px;
+    transition: background 5s; color 1s;
 }
 
 .Bckg-Carte:hover {
+    background: #003165;
     border: 10px solid navy;
+    color: white;
 }
 
 .Bckg-Carte img {
@@ -129,7 +132,15 @@ main {
     display: block;
     margin: 0 auto;
     transform: translateX(-50%);
+    transition: transform 3s, width 5s, height 5s;
 }
+
+.Bckg-Carte img:hover {
+    width: 300%;
+    height: 600px;
+    transform: rotate(50deg);
+}
+
 
 .Bckg-Carte img:nth-of-type(1) {
     margin: 300px;
@@ -145,6 +156,10 @@ main {
 
 h2 {
     font-size: 3rem;
+}
+
+#h6 {
+    color: white;
 }
 
 .carte-texte {
@@ -177,6 +192,7 @@ h2 {
 
 .Bckg-Carte1:hover {
     border: 10px solid navy;
+
 }
 
 .Bckg-Carte1 h2:hover {
